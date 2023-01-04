@@ -17,7 +17,7 @@ import { repairDatabase } from '../tools/repair';
  * Get port from environment and store in Express.
  */
 
-const port = getWithDefault('PORT', 8080);
+const port = getWithDefault('PORT', 5003);
 app.set('port', port);
 
 /**
