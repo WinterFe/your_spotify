@@ -40,6 +40,6 @@ jobs:
           file: ./server/Dockerfile.production
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: winterfe/your_spotify_server:latest
+          tags: ghcr.io/winterfe/your_spotify_server:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
